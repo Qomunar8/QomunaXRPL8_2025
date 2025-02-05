@@ -1,0 +1,27 @@
+img{
+    position: relative;
+    top: -240px;
+    left: 1300px;
+    width: 250px;
+    height: 200px;
+
+}
+.bahan{
+    position: relative;
+    left: 50px;
+}
+li{
+    position: relative;
+    top: -15px;
+    left: 1cm;
+}
+.langkah{
+    position: relative;
+    top: -200px;
+    left: 50px;
+}
+.miekuah{
+    position: relative;
+    top: -200px;
+    left: 1px;
+}
