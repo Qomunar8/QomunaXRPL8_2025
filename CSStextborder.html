@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style media="screen">
+        .maroon {color: #820004;}
+        .navy{color: #05004c;}
+        .indigo{color: #5d76cb;}
+
+        .spacing{
+            letter-spacing: 2px; 
+            word-spacing: 5px; 
+            line-height: 20px;}
+
+        .uppercase{text-transform: uppercase;}
+        .lowercase{text-transform: lowercase;}
+        .capitalize{text-transform: capitalize;}
+
+        .paragraf{
+            font-family: 'Courier New', Courier, monospace; 
+            font-size: 20px;}
+
+        ul{list-style-type: circle;}
+        li{font-family: "Tahoma"; font-size: 15px;}
+
+
+        .btn-red{
+            padding: 10px;
+            background: #fc0202;
+            color: #ffff;
+        }
+        .btn-blue{
+            padding: 10px;
+            background: #02496d;
+            color: #ffff;
+        }
+        .btn-green{
+            padding: 10px;
+            background: #338401;
+            color: #ffff;
+        }
+        .solid{
+            border-style: solid;
+            border-width: 4px;
+            border-color: #000;
+        }
+        .dotted{
+            border-style: dotted;
+            border-width: 4px;
+            border-color: #000;
+        }
+        .double{
+            border-style: double;
+            border-width: 4px;
+            border-color: #000;
+        }
+        .ridge{
+            border-style: ridge;
+            border-width: 4px;
+        }
+        .inset{
+            border-style: inset;
+            border-width: 4px;
+        }
+        .outset{
+            border-style: outset;
+            border-width: 4px;
+        }
+        .round{
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">CSS TEXT</h1>
+    <fieldset>
+        <legend>Text color</legend>
+        <p class="maroon">ini warna maroon</p>
+        <p class="navy">ini warna navy</p>
+        <p class="indigo">ini warna indigo</p>
+    </fieldset>
+
+    <fieldset>
+        <legend>spacing</legend>
+        <p class="spacing">inggris adalah negara kerajaan yang tertua di kawasan Eropa. Sejarah Inggris telah dimulai dari abad ke-9 Masehi. Sebelumnya, Inggris atau Britania Raya dikenal sebagai peradaban Anglo-Saxon dan memiliki tujuh kerajaan utama di bawah Wessex, seperti East Anglia, Mercia, Northumbria, Wessex, Kent, serta Sussex.
+            Kerajaan Inggris ini memiliki sistem pemerintahan monarki konstitusional. Itu artinya, penguasa kerajaan akan berbagi kekuasaan dengan pemerintah yang terorganisasi secara konstitusional.
+            Raja maupun ratu kerajaan adalah seorang kepala negara. Akan tetapi, kekuatan politiknya berada di tangan perdana menteri selaku kepala pemerintahan.</p>
+    </fieldset>
+
+    <fieldset>
+        <legend>transform</legend>
+        <p class="uppercase">ini adalah contoh transform uppercase</p>
+        <p class="lowercase">ini adalah contoh transform lowercase</p>
+        <p class="capitalize">ini adalah contoh transform capitalize</p>
+    </fieldset>
+
+    <fieldset>
+        <legend>font style</legend>
+        <p class="paragraf">
+            Penguasa pertama di Kerajaan Britania Raya adalah Egbert yang berkuasa dari 802 hingga 839 Masehi. Dinasti Saxon ini berhenti di masa kepemimpinan Edward the Elder di tahun 899 hingga 924 Masehi.
+            <ul>
+                <li>Setelah itu, masa pemerintahan Britania dilanjutkan dengan Inggris. Raja Inggris yang pertama, yaitu Athelstan yang memimpin dari tahun 925 hingga 939 Masehi.</li>
+                <li>Selanjutnya, ketika William the Conqueror memimpin, terjadi peralihan aturan kepemimpinan yang ditetapkan dari raja terhadap anak laki-laki pertamanya.</li>
+                <li>Pada 1702 Masehi, peraturan tersebut diubah ketika Parlemen Inggris memberikan Act of Settlement. Hal ini karena pasca meninggalnya Raja William III, penguasa Inggris dilanjutkan kepada Anne serta keturunannya.</li>
+                <li>Aturan mengenai pewaris takhta Kerajaan Inggris ini tidak diperbarui lagi hingga 2013. Namun akhirnya, terjadi pergantian peraturan pewaris takhta Inggris menjadi Succession to the Crown Act. Hal ini disetujui oleh para parlemen.</li>
+            </ul>
+        </p>
+    </fieldset>
+
+    <h1 align="center">CSS BORDER</h1>
+
+    <fieldset>
+        <legend>border style</legend>
+        <p class="btn-red solid"><b>solid</b></p>
+        <p class="btn-blue dotted"><b>dotted</b></p>
+        <p class="btn-green ridge"><b>ridge</b></p>
+        <p class="btn-red double"><b>double</b></p>
+        <p class="btn-blue inset"><b>inset</b></p>
+        <p class="btn-green outset"><b>outset</b></p>
+    </fieldset>
+
+    <fieldset class="round">
+        <legend>round border</legend>
+        <p class="btn-red solid round"><b>solid</b></p>
+        <p class="btn-blue dotted round"><b>dotted</b></p>
+        <p class="btn-green ridge round"><b>ridge</b></p>
+        <p class="btn-red double round"><b>double</b></p>
+        <p class="btn-blue inset round"><b>inset</b></p>
+        <p class="btn-green outset round"><b>outset</b></p>
+    </fieldset>
+</body>
+</html>
